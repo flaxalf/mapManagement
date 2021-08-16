@@ -1,0 +1,13 @@
+.button {
+    -fx-background-color: white;
+    -fx-graphic: url('../img/exit-outline.png');
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-graphic: url('../img/exit-fill.png');
+}
+
+.button:focused {
+    -fx-background-color: #EEEEEE;
+}

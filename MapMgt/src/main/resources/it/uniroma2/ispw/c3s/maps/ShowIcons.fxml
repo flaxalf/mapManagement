@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="296.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.uniroma2.ispw.c3s.maps.view.ShowIconsView">
+    <children>
+        <Button userData="1" layoutX="69.0" layoutY="109.0" mnemonicParsing="false" onAction="#request" prefHeight="27.0" prefWidth="254.0" text="Appartamenti e loft di Roma" />
+        <Button userData="2" layoutX="69.0" layoutY="157.0" mnemonicParsing="false" onAction="#request" prefHeight="27.0" prefWidth="254.0" text="Appartamenti e loft di Milano" />
+        <Button userData="3" layoutX="69.0" layoutY="203.0" mnemonicParsing="false" onAction="#request" prefHeight="27.0" prefWidth="254.0" text="Appartamenti e loft di Napoli" />
+        <Label alignment="CENTER_RIGHT" layoutX="22.0" layoutY="24.0" prefHeight="69.0" prefWidth="348.0" text="Cliccare sui bottoni sottostanti per visualizzare le icone corrispondenti in mappa" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Apple Braille Outline 6 Dot" size="17.0" />
+            </font>
+        </Label>
+      <Button layoutX="14.0" layoutY="255.0" mnemonicParsing="false" onAction="#goBack" text="Indietro" />
+    </children>
+</AnchorPane>
